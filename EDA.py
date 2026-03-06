@@ -14,7 +14,7 @@ sns.set_style("whitegrid")
 # 2. Load Dataset
 # =========================================
 
-df = pd.read_csv(r"C:\Users\kabab\Downloads\EDA And Data Preprocessing\Titanic-Dataset\Titanic-Dataset.csv")
+df = pd.read_csv("Titanic-Dataset.csv")
 
 print("First 5 rows:")
 print(df.head())
@@ -120,4 +120,5 @@ print(X_scaled.head())
 # =========================================
 
 print("\nFinal Dataset Shape:")
+
 print(X_scaled.shape)
